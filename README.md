@@ -1,5 +1,7 @@
 # The Entrepreneurship Club
 
+## Working on adding feautures to this website.
+
 The **Entrepreneurship Club** is for those who dream beyond the rational limits and for those who seek to make it a reality. 
 
 - **Founded:** November 02, 2019
