@@ -43,7 +43,7 @@
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
             {% for image in gallery %}
             <div class="overflow-hidden rounded-lg shadow-md cursor-pointer hover:scale-105">
-                <img src="data:image/png;base64,{{ image.image }}" alt="Gallery image {{ forloop.counter }}" 
+                <img src="{% static image.image  %}" alt="Gallery image {{ forloop.counter }}" 
                      class="w-full h-full object-cover transition-transform duration-300" 
                      onclick="openModal(this)">
             </div>

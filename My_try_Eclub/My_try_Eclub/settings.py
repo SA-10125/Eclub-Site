@@ -28,6 +28,16 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
+
+#This is what I have added to ensure session logout after a certain time.
+# Close the session when the user closes the browser
+SESSION_EXPIRE_AT_BROWSER_CLOSE = True
+# Set the session cookie age (in seconds) (change as needed)
+SESSION_COOKIE_AGE = 1200 #20 mins. 
+# Save the session on every request (to reset the session cookie age timer.)
+SESSION_SAVE_EVERY_REQUEST = True
+
+
 # Application definition
 
 INSTALLED_APPS = [
